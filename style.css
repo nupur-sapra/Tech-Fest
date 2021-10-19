@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    font-family: 'Andada Pro', serif;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.wave-form {
+    position: relative;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    height: 95vh;
+    padding: 30px 0px;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-md-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.content h1 {
+    font-family: 'Scheherazade New', serif;
+    font-size: 4rem;
+}
+
+.content p {
+    padding: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+@media screen and (max-width:769px) {
+    .wave-form {
+        position: relative;
+        background-image: linear-gradient(to right, #a517ba, #5f1782);
+        height: 170vh;
+    }
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .col-sm-5 {
+        padding: 20px 0px;
+    }
+    .col-sm-7 {
+        padding: 30px 15px;
+    }
+}
+
+.container {
+    color: #5f1782;
+    /* background-color: blanchedalmond; */
+    background-color: #efefef7a;
+}
+
+.container h2 {
+    font-family: 'Scheherazade New', serif;
+}
+
+.container {
+    padding: 50px 10px;
+}
+
+.container h1 {
+    /* border: blue solid 2px; */
+    font-family: 'PT Sans', sans-serif;
+}
+
+.p-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.p-text p {
+    font-size: 1.2rem;
+    line-height: 35px;
+    font-family: 'Andada Pro', serif;
+}
+
+.container-row-one {
+    margin: 35px 0px;
+    padding-top: 30px;
+}
+
+.col-md-3 img {
+    width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .p-text {
+        padding-left: 50px;
+    }
+    .p-text p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container-row-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-md-3 {
+        width: 50%;
+    }
+    .p-text {
+        padding: 0px 20px;
+    }
+    .p-text p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .p-text h2 {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .column {
+        padding: 30px 0px;
+    }
+    .sponsers {
+        text-align: center;
+    }
+}
+
+.sponsers h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team h1 {
+    color: #5f1782;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.team {
+    margin: 50px 0px;
+}
+
+.shadow-sm img {
+    width: 60%;
+    padding: 20px 0px;
+}
+
+.shadow-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, #a517ba24, #7222996b); */
+    background-image: linear-gradient( to right, #a517ba94, #5f1782ba);
+    border: none;
+}
+
+.container-3 {
+    color: white;
+}
+
+.container-3 h1 {
+    color: #5f1782;
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.our-team-margin {
+    margin: 20px 0px;
+}
