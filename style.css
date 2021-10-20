@@ -16,12 +16,13 @@
 .wave-form {
     position: relative;
     background-image: linear-gradient(to right, #a517ba, #5f1782);
-    height: 95vh;
     padding: 30px 0px;
+    padding-bottom: 7rem;
 }
 
 .row {
     width: 100%;
+    margin: 0;
 }
 
 .col-md-5 {
@@ -43,7 +44,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 50px;
+    padding: 0px 2rem;
+}
+
+.tech-img img {
+    width: 90%;
 }
 
 .content h1 {
@@ -57,13 +62,13 @@
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 40px;
+    text-align: justify;
 }
 
 @media screen and (max-width:769px) {
     .wave-form {
         position: relative;
         background-image: linear-gradient(to right, #a517ba, #5f1782);
-        height: 175vh;
     }
     .linear-grad {
         display: flex;
@@ -76,11 +81,8 @@
         bottom: 0;
         left: 0;
     }
-    .col-sm-5 {
-        padding: 20px 0px;
-    }
-    .col-sm-7 {
-        padding: 30px 15px;
+    .column img {
+        width: 40%;
     }
 }
 
@@ -90,16 +92,15 @@ span {
 
 .container {
     color: #5f1782;
-    /* background-color: blanchedalmond; */
-    background-color: #efefef7a;
+    background-color: white;
 }
 
 .container h2 {
     font-family: 'Scheherazade New', serif;
 }
 
-.container {
-    padding: 50px 10px;
+.container-two {
+    padding: 2rem 0px;
 }
 
 .container h1 {
@@ -157,7 +158,7 @@ span {
         justify-content: center;
         align-items: center;
         font-size: 1.2rem;
-        text-align: center;
+        text-align: justify;
     }
     .p-text h2 {
         width: 100%;
