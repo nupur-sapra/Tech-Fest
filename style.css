@@ -63,9 +63,9 @@
     .wave-form {
         position: relative;
         background-image: linear-gradient(to right, #a517ba, #5f1782);
-        height: 170vh;
+        height: 175vh;
     }
-    .row {
+    .linear-grad {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -82,6 +82,10 @@
     .col-sm-7 {
         padding: 30px 15px;
     }
+}
+
+span {
+    padding-bottom: 10px;
 }
 
 .container {
